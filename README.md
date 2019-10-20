@@ -2,6 +2,8 @@
 
 Simply connect your Jira issue and Perforce changelist with issue-key in comment.
 
+![screenshot](screenshot.png)
+
 ## Requirements
 
 * Perforce user to discover submits (security note: readonly permission is good practice)
@@ -23,6 +25,6 @@ JIRA_PASSWORD='<>'
 ```
 p4-jira change-commit //depot/... "/opt/perforce/p4-jira/p4-jira.py %changelist% %user%"
 ```
-5. Check connection (logfile in working path is available).
+5. Check connection submitting some files with issue-key in description (logfile in working path is available).
 
-![screenshot](screenshot.png)
+
