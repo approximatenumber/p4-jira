@@ -23,5 +23,6 @@ JIRA_PASSWORD='<>'
 ```
 p4-jira change-commit //depot/... "/opt/perforce/p4-jira/p4-jira.py %changelist% %user%"
 ```
-5. Profit:
+5. Check connection (logfile in working path is available).
+
 ![screenshot](screenshot.png)
